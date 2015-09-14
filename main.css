@@ -1,0 +1,449 @@
+@font-face {
+    font-family: "nevis";
+    src: url(fonts/nevis.ttf);
+}
+
+h1, h2 {
+  font-family: "nevis";
+  
+}
+
+.header{
+height: 65px;
+width: 100%;
+background: white;
+display: block;
+border-bottom: 3px solid black;
+position: relative;
+z-index: 1;
+padding: 10px 0 0 10px;
+}
+
+h1 {
+font-size: 150%;
+color: black;
+margin-top: 5px;
+}
+
+.logo{
+overflow:hidden;
+text-indent:10000px;
+width:120px;
+height:59px;
+display:inline-block;
+float:left;
+background:url(images/jarallax.jpg);
+margin-right: 50px;
+}
+
+h2 {
+color: white;
+font-size: 350%;
+top: 140px;
+position:absolute;
+opacity:0;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+height:25000px;
+background-color:#eec56c;
+color:#eeeeee;
+margin:0;
+padding:0;
+}
+
+#bd_start
+{
+position: fixed;
+top:0;
+left:0;
+z-index:-999;
+background-color:#44bb55;
+width:100%;
+height:150%;
+}
+
+
+#bd_start_purple
+{
+position: fixed;
+top:0;
+left:0;
+z-index:-998999;
+background-color:#7658f8;
+width:100%;
+height:150%;
+}
+
+ul{
+list-style:none;
+}
+
+nav{
+display:block;
+}
+
+nav li{
+float:left;
+
+}
+
+nav a{
+
+display:block;
+}
+
+a{
+text-decoration:none;
+font-weight:bold;
+color:#57caff;
+}
+
+p{
+font-size: 34px;
+width: 560px;
+position: absolute;
+left: 10%;
+top: 25%;
+background: rgba(0, 0, 0, 0.42);
+color:#ffffff;
+padding: 10px 20px;
+opacity:0;
+}
+
+#p1_2
+{
+left:auto;
+right:10%;
+top: 49%;
+}
+
+#p1_3
+{
+top: 70%;
+}
+
+.content{
+position:fixed;
+width:100%;
+height:100%;
+}
+
+.planet0, .planet1, .planet2, .carl, .carr, .plane, #share{
+display:block;
+position:absolute;
+}
+
+.tree, .road, .roadl, .roads, .pira, .pizza,#divlogo,#divlogobenter, .slogan, .sloganshot, .sloganshot2, .footer, .navigate, .uptolike-buttons{
+display:block;
+position:absolute;
+}
+
+.planet0{
+width:100%;
+height:110%;
+background:url(images/gucken-polaris.jpg) top center;
+top:0%;
+left:0%;
+position:absolute;
+z-index:-1;
+}
+
+.planet1{
+width:356px;
+height:344px;
+background:url(images/bigmoon.png);
+left:65%;
+top:90%;
+}
+
+.planet2{
+background:url(images/car.png);
+width:120px;
+height:214px;
+margin-left: -8px;
+left:50%;
+top:100%;
+}
+
+
+.plane{
+background:url(images/papperplane.png);
+width:300px;
+height:170px;
+margin-left: -150px;
+left:50%;
+top:100%;
+}
+
+
+.carr{
+background:url(images/carr.png);
+width:214px;
+height:120px;
+margin-top: -112px;
+top:100%;
+opacity:0;
+}
+
+
+.carl{
+background:url(images/carl.png);
+width:214px;
+height:120px;
+margin-top: -8px;
+top:100%;
+opacity:0;
+}
+
+.navig:hover{
+outline-width: 5px;
+	outline-style: solid;
+	outline-color:#222;
+}
+
+
+.slogan{
+background:url(images/slogan.png);
+width:1200px;
+height:600px;
+margin-left:-600px;
+left:50%;
+top:100%;
+z-index:1;
+}
+
+.sloganshot,.sloganshot2{
+background:url(images/sloganshot.png);
+width:200px;
+height:85px;
+margin-left:-100px;
+left:50%;
+top:100%;
+z-index:1;
+}
+.sloganshot2{
+background:url(images/finish.png);
+}
+
+.pizza{
+background:url(images/pizza.png);
+background-size:cover;
+width:100%;
+height:100%;
+}
+
+.footer{
+background:url(images/footer.png);
+background-size:cover;
+width:100%;
+height:100%;
+}
+
+.logohed{
+top:-1px;
+width:100%;
+height:auto;
+opacity:0.9;
+ border-top:0% solid #ffffff;
+ border-bottom:780px solid #ffffff;
+}
+
+.logohedb{
+width:100%;
+height:100%;
+opacity:0.25;
+}
+
+#divlogo{
+top:-100px;
+width:100%;
+height:100%;
+}
+
+#divlogobenter{
+background:url(images/black.png);
+background-size:cover;
+width:100%;
+height:100%;
+opacity:0.48;
+}
+#divlogob
+{
+ opacity:0;
+}
+
+
+#divlogoenter{
+opacity:0.9;
+background-color:white;
+height:100px;
+display:none;
+}
+
+.road{
+background:url(images/road.jpg);
+width:200px;
+height:50px;
+margin-left: -100px;
+z-index:-999;
+left:50%;
+top:100%;
+}
+.roadl{
+background:url(images/roadl.jpg);
+width:100%;
+height:200px;
+margin-left: -50%;
+margin-top:-100px;
+z-index:-100;
+left:50%;
+top:100%;
+}
+.roads{
+background:url(images/roads.jpg);
+width:200px;
+height:200px;
+margin-left: -100px;
+margin-top:-100px;
+z-index:-1;
+left:50%;
+top:100%;
+}
+
+.verticallinemy{
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	color:#ccc;
+	z-index:-10000;
+	position: fixed;
+	left:50%;
+	top:0;
+	height:100%;
+}
+
+.tree{
+background:url(images/tree.png);
+width:200px;
+margin-left: -100px;
+height:262px;
+left:50%;
+top:100%;
+}
+
+.pira{
+background:url(images/pira.png);
+width:380px;
+height:122px;
+margin-left: -190px;
+left:50%;
+top:100%;
+}
+
+.button{
+background: #142036;
+padding: 5px 10px;
+border: 2px solid #142036;
+border-radius: 5px;
+color: white;
+box-shadow: 0 0 10px white;
+margin-left:25px;
+
+background-image: linear-gradient(bottom, rgb(20,32,54) 10%, rgb(97,119,158) 78%);
+background-image: -o-linear-gradient(bottom, rgb(20,32,54) 10%, rgb(97,119,158) 78%);
+background-image: -moz-linear-gradient(bottom, rgb(20,32,54) 10%, rgb(97,119,158) 78%);
+background-image: -webkit-linear-gradient(bottom, rgb(20,32,54) 10%, rgb(97,119,158) 78%);
+background-image: -ms-linear-gradient(bottom, rgb(20,32,54) 10%, rgb(97,119,158) 78%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.1, rgb(20,32,54)),
+	color-stop(0.78, rgb(97,119,158))
+);
+}
+
+.button:hover{
+box-shadow: 0 0 20px white;
+}
+
+.credits{
+position: absolute;
+left: 100%;
+top: 100%;
+margin-top: -46px;
+margin-left: -137px;
+
+}
+
+
+#scroll
+{
+display:none;
+	position:fixed;
+	margin-left:-75px;
+	bottom:50px;
+	left:50%;
+	z-index:99999;
+}
+
+
+.navigate
+{
+	width:300px;
+	height:720px;
+	margin-left:-150px;
+	margin-top:-320px;
+	left:50%;
+	top:50%;
+	opacity:0;
+}
+
+
+@media screen and (max-width: 1680px) {
+#divlogo{
+top:0px;
+}
+}
+
+@media screen and (max-width: 1600px) {
+#scroll
+{
+ display:block;
+}
+}
+
+
+@media screen and (max-width: 1440px) {
+#divlogo{
+top:0px;
+}
+#divlogoenter{display:block; height:50px}
+}
+
+
+@media screen and (max-width: 1200px) {
+#divlogo{
+top:0px;
+}
+
+#divlogoenter{display:block; height:150px}
+
+.slogan{
+background:url(images/slogans.png);
+width:600px;
+height:300px;
+margin-left:-300px;
+}
+
+}
+
+@media screen and (max-width: 950px) {
+#divlogo{
+top:0px;
+}
+
+#divlogoenter{display:block; height:250px}
+}
